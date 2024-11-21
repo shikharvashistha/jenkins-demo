@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
 if (require.main === module) {
   app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
+    console.log('New change')
   })
 }
 
